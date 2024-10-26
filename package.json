@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node practice.js",
-    "dev" : "nodemon practice.js"
+    "dev": "nodemon practice.js"
   },
   "keywords": [
     "express",
@@ -15,6 +15,7 @@
   "author": "chirag arora",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1"
   },
   "devDependencies": {
